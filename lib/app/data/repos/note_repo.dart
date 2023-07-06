@@ -50,10 +50,7 @@ class NoteRepository {
 
     ;
     List<dynamic> jsonNotesList = queryResult.data?['notes'];
-        print(jsonNotesList);
-        print(jsonNotesList
-        .map((note) => Note.fromJson(note))
-        .toList());
+       
     return jsonNotesList
         .map((note) => Note.fromJson(note))
         .toList(); // here i am getting list in getUsers field which i am return
