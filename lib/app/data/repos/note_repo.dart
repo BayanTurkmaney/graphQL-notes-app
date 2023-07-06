@@ -33,7 +33,6 @@ class NoteRepository {
   }
 
   Future<List<Note>> getNotes() async {
-    print('22222222222222222222222222222222222222222222222222222222');
     QueryResult queryResult = await client.query(
       // here it's get type so using query method
       QueryOptions(
