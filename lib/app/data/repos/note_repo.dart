@@ -57,7 +57,7 @@ class NoteRepository {
   }
  
   Future<void> addNotes(Note note) async {
-    print('jhjdsjdjs ....');
+   
     // ignore , just for cacheing
    await client.mutate(
       // use mutate method for mutation
