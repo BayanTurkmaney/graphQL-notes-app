@@ -13,12 +13,10 @@ class NoteCubit extends Cubit<NoteState> {
 
   Future<void> getAllNotes() async {
     try {
-      print('ppppppppppppppppppppppppppppppppppppppppppppppppp');
       emit(LoadingState());
       List<Note> notes = await repository.getNotes();
       emit(LoadedNotesState(notes));
     } catch (e) {
-      print(e);
       throw (e);
     }
   }
