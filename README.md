@@ -2,6 +2,11 @@
 
 A new Flutter project.
 
+Hello Friends, 
+It is a CRUD app to explain how to implement graphql operations with flutter.
+I used https://hasura.io/ to create graphql server which contains NOTE schema.
+Note has two different fields: title and body.
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.
